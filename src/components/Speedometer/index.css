@@ -1,0 +1,53 @@
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speed-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
+.image {
+  height: 220px;
+  width: 450px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.speed-paragraph {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 10px;
+}
+.accelerate-button {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border-width: 0px;
+  color: white;
+  background-color: #0b69ff;
+  font-size: 10px;
+  margin-right: 10px;
+}
+.brake-button {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  border-width: 2px;
+  color: #cbd5e1;
+  background-color: transparent;
+  font-size: 10px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  margin-right: 10px;
+}
